@@ -1,5 +1,5 @@
 // src/components/Interests.js
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { UserContext } from "../context/UserContext";
 import { LanguageContext } from "../context/LanguageContext";
 import Loading from "./Loading";
