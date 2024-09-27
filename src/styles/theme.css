@@ -166,6 +166,7 @@ a {
   object-position: top;
   padding: 20px 0;
   background-color: #1e2939;
+  transition: max-height 1s ease;
 }
 .photo-of-me:hover {
   max-height: 690px;
