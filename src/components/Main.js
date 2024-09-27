@@ -1,7 +1,6 @@
 // src/components/Main.js
 import React, { useContext } from "react";
 import { UserContext } from "../context/UserContext";
-import { LanguageContext } from "../context/LanguageContext";
 import Header from "./Header";
 import About from "./About";
 import Experience from "./Experience";
@@ -12,7 +11,6 @@ import Projects from "./Projects";
 
 const Main = () => {
   const { user } = useContext(UserContext);
-  const { language } = useContext(LanguageContext);
 
   if (!user) {
     return <Loading />;

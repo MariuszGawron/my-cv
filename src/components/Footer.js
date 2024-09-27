@@ -1,14 +1,12 @@
 // src/components/Footer.js
 import React, { useContext } from "react";
 import { UserContext } from "../context/UserContext";
-import { LanguageContext } from "../context/LanguageContext";
 
 const Footer = () => {
   const { user } = useContext(UserContext);
-  const { language } = useContext(LanguageContext);
 
-  if (!user || !user.contactEmail) {
-    return <p>Loading...</p>;
+  if (!user) {
+    return <Loading />;
   }
 
   return (
