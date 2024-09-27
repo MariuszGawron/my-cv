@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria zdjęć</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+      }
+      .gallery img {
+        margin: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Galeria zdjęć</h1>
+    <div class="gallery">
+      <img src="img/eVan1.jpg" alt="eVan1" />
+      <img src="img/eVan2.jpg" alt="eVan2" />
+      <img src="img/eVan3.jpg" alt="eVan3" />
+      <img src="img/eVan4.jpg" alt="eVan4" />
+    </div>
+  </body>
+</html>
