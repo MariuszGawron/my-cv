@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import Loading from "./Loading";
 import Education from "./Education";
 import Projects from "./Projects";
+import Interests from "./Interests";
 
 const Main = () => {
   const { user } = useContext(UserContext);
@@ -23,6 +24,7 @@ const Main = () => {
       <Projects />
       <Education />
       <Experience />
+      <Interests />
       <Footer />
     </div>
   );

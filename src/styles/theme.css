@@ -72,7 +72,7 @@ body.light .container {
   display: flex;
   justify-content: center;
   max-width: 1200px;
-  margin: 10px auto;
+  margin: 10px auto 0 auto;
 }
 
 .aside {
@@ -100,7 +100,7 @@ body.light .container {
 .header,
 .footer {
   text-align: center;
-  padding: 20px;
+  padding: 20px, 20px, 0, 20px;
   border-bottom: 2px solid #ddd;
 }
 
@@ -108,6 +108,7 @@ body.light .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .switchers {
@@ -125,7 +126,7 @@ body.light .container {
 }
 
 section {
-  margin: 40px 0;
+  margin: 20px 0 0 0;
 }
 
 h1,
@@ -157,15 +158,35 @@ a {
   text-decoration: none;
 }
 
-.photo-of-me {
+.photo-of-me,
+.qrqode {
   width: 370px;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: top;
   padding: 20px 0;
+  background-color: #1e2939;
+}
+.photo-of-me:hover {
+  max-height: 690px;
+  transition: max-height 1s ease;
+}
+.qrqode-small {
+  width: 145px;
+  position: absolute;
+  right: 0%;
+}
+
+.qrqode,
+.qrqode-small {
+  display: none;
 }
 
 .years {
   color: grey;
   font-size: small;
   font-weight: 100;
+  margin-left: 10px;
 }
 
 .education-item {
@@ -203,6 +224,7 @@ body.dark .certificate-preview-link .certificate-preview {
   cursor: pointer;
   display: flex;
   align-items: center;
+  width: 450px;
 }
 
 /* Podstawowa animacja rozwijania/zwijania */
@@ -243,6 +265,14 @@ body.dark .certificate-preview-link .certificate-preview {
   outline: none; /* Usuwa ramkę focus dla przycisku */
 }
 
+.button-nonclick {
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: default;
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -269,5 +299,6 @@ body.dark .certificate-preview-link .certificate-preview {
 }
 
 .github-logo {
-  width: 40px;
+  width: 19px;
+  margin-left: 20px;
 }

@@ -15,6 +15,7 @@ const Header = () => {
   return (
     <header className="header">
       <h1>{user.name}</h1>
+      <img src="/img/qrcode-small.png" className="qrqode-small" alt="QR qode" />
       <div className="switchers">
         <ThemeSwitcher />
         <LanguageSwitcher />

@@ -32,7 +32,7 @@ const Experience = () => {
                 {expandedIndex === index ? "-" : "+"}
               </button>
               <h3 className="course-title" onClick={() => toggleExpand(index)}>
-                {job.title} <span className="years"> | {job.years}</span>
+                {job.title}
               </h3>
               {job.certificate && (
                 <a className="certificate-preview-link" href={job.certificate} target="_blank" rel="noopener noreferrer">
@@ -43,6 +43,7 @@ const Experience = () => {
                   />
                 </a>
               )}
+              <span className="years"> | {job.years}</span>
             </div>
             <div className={`education-details ${expandedIndex === index ? "expanded" : "collapsed"}`}>
               <h4>{job.company}</h4>

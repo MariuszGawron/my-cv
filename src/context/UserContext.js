@@ -14,7 +14,7 @@ export const UserProvider = ({ children }) => {
       en: {
         name: "Mariusz Gawron",
         about:
-          "I'm a relatively new web developer who isn’t afraid of challenges. However, for several years, I've been involved in the planning, testing, and development of applications that streamline logistics operations in a large production and logistics company. My experience includes both IT project development and team coordination, but what drives me the most recently is solving real-world problems with code. \n\nAs an Application Development Specialist, I develop tools that improve internal company processes, from ordering systems to applications for optimizing transportation, as well as creating an application for submitting transportation requests for the company’s logistics department. I handle the full application lifecycle: from planning and development, through testing, deployment, and providing technical support. \n\nIn addition to coding, I continuously grow by participating in courses related to JavaScript, Oracle APEX, and Power BI. I treat every project as a new challenge and an opportunity to learn, because I believe that constant development is the key to innovative solutions.",
+          "I'm a 35-year-old relatively new web developer who isn't afraid of challenges. However, for several years, I've been involved in the planning, testing, and development of applications that streamline logistics operations in a large production and logistics company. My experience includes both IT project development and team coordination, but what drives me the most recently is solving real-world problems with code. \n\nAs an Application Development Specialist, I develop tools that improve internal company processes, from ordering systems to applications for optimizing transportation, as well as creating an application for submitting transportation requests for the company's logistics department. I handle the full application lifecycle: from planning and development, through testing, deployment, and providing technical support. \n\nIn addition to coding, I continuously grow by participating in courses related to JavaScript, Oracle APEX, and Power BI. I treat every project as a new challenge and an opportunity to learn, because I believe that constant development is the key to innovative solutions.",
         experience: [
           {
             title: "Application Development Specialist - Logistics Department",
@@ -207,9 +207,9 @@ export const UserProvider = ({ children }) => {
           {
             name: "CV",
             technology: "React",
-            link: "https://mg-cv.netlify.app/",
-            thumbnail: "",
-            github: "https://github.com/MariuszGawron/mg-my-cv",
+            link: "https://mg-my-cv.netlify.app/",
+            thumbnail: "/img/CV.jpg",
+            github: "https://github.com/MariuszGawron/my-cv",
             description: "This is the very page you are on right now ;-)",
           },
           {
@@ -222,13 +222,21 @@ export const UserProvider = ({ children }) => {
               "The website was created for the logistics needs of a large manufacturing and logistics company. It allows employees to create transport requests (road, sea, rail, air, and courier transport). For each request, loading and unloading locations can be added, specifying exact dates and additional requirements such as ADR and delivery conditions. Invoices for goods, transport invoices, and project costs can be assigned to each request. The application supports users submitting requests, users accepting requests, and users configuring and parameterizing the application's operation. The behavior of the application mainly relies on parameters. User access is defined at the role level, and the naming conventions, behavior of forms, and visibility of buttons are based on parameters defined by the application's administrator.",
           },
         ],
+        interests: [
+          { name: "Post-apocalyptic, horros, fantasy books" },
+          { name: "Astronomy and physics" },
+          { name: "Technological innovations" },
+          { name: "Puzzles and brain teasers" },
+          { name: "DIY projects" },
+          { name: "Board games and card games" },
+        ],
         contactEmail: "mariusz.gawron1@gmail.com",
         contactPhone: "+48 782-328-747",
       },
       pl: {
         name: "Mariusz Gawron",
         about:
-          "Jestem stosunkowo świeżym programistą webowym, który nie boi się wyzwań. Jednak od kilku lat uczestniczę w planowaniu, testowaniu i rozwoju aplikacji, które usprawniają funkcjonowanie logistyki w dużej firmie produkcyjno-logistycznej. Moje doświadczenie obejmuje zarówno rozwój projektów IT, jak i koordynację pracy zespołów ludzi, ale to, co w ostatnim czasie napędza mnie najbardziej, to rozwiązywanie realnych problemów za pomocą kodu. \n\nPracując jako Specjalista ds. rozwoju aplikacji, rozwijam narzędzia usprawniające wewnętrzne procesy firmowe, od systemów zamówień, po aplikacje do optymalizacji transportu, a także tworzę aplikację do składania zapotrzebowań transportowych dla firmowej spedycji. Zajmuję się pełnym cyklem życia aplikacji: od planowania i tworzenia, przez testowanie, wdrażanie, aż po wsparcie techniczne. \n\nPoza tworzeniem kodu, wciąż się rozwijam, uczestnicząc w kursach związanych z JavaScriptem, Oracle APEX czy Power BI. Każdy projekt traktuję jako nowe wyzwanie i okazję do nauki, ponieważ wierzę, że stały rozwój to klucz do innowacyjnych rozwiązań.",
+          "Jestem stosunkowo świeżym, choć nie najmłodszym, bo 35 letnim programistą webowym, który nie boi się wyzwań. Jednak od kilku lat uczestniczę w planowaniu, testowaniu i rozwoju aplikacji, które usprawniają funkcjonowanie logistyki w dużej firmie produkcyjno-logistycznej. Moje doświadczenie obejmuje zarówno rozwój projektów IT, jak i koordynację pracy zespołów ludzi, ale to, co w ostatnim czasie napędza mnie najbardziej, to rozwiązywanie realnych problemów za pomocą kodu. \n\nPracując jako Specjalista ds. rozwoju aplikacji, rozwijam narzędzia usprawniające wewnętrzne procesy firmowe, od systemów zamówień, po aplikacje do optymalizacji transportu, a także tworzę aplikację do składania zapotrzebowań transportowych dla firmowej spedycji. Zajmuję się pełnym cyklem życia aplikacji: od planowania i tworzenia, przez testowanie, wdrażanie, aż po wsparcie techniczne. \n\nPoza tworzeniem kodu, wciąż się rozwijam, uczestnicząc w kursach związanych z JavaScriptem, Oracle APEX czy Power BI. Każdy projekt traktuję jako nowe wyzwanie i okazję do nauki, ponieważ wierzę, że stały rozwój to klucz do innowacyjnych rozwiązań.",
         experience: [
           {
             title: "Specj. ds. rozwoju aplikacji - Dział Logistyki",
@@ -421,9 +429,9 @@ export const UserProvider = ({ children }) => {
           {
             name: "CV",
             technology: "React",
-            link: "https://mg-cv.netlify.app/",
-            thumbnail: "",
-            github: "https://github.com/MariuszGawron/mg-my-cv",
+            link: "https://mg-my-cv.netlify.app/",
+            thumbnail: "/img/CV.jpg",
+            github: "https://github.com/MariuszGawron/my-cv",
             description: "To jest właśnie ta strona na której jesteś ;-)",
           },
           {
@@ -435,6 +443,14 @@ export const UserProvider = ({ children }) => {
             description:
               "Strona stworzona na potrzeby spedycji w dużej firmie produkcyjno-logistycznej. Umożliwia tworzenie zapotrzebowań transportowych przez pracowników firmy (transport drogowy, morski, kolejowy, lotniczy, kurierski). Do każdego zapotrzebowania można dodać miejsca załadunków i rozładunków z ustaleniem konkretnych dat oraz dodatkowymi wymaganiami, takimi jak ADR i warunki dostaw. Dla każdego zapotrzebowania można przypisać faktury za towar, faktury transportowe, koszty do projektów itd. Aplikacja pozwala na obsługę przez użytkowników składających zapotrzebowanie, przyjmujących zapotrzebowanie oraz konfigurujących i parametryzujących sposób działania aplikacji. Zachowanie aplikacji w głównej mierze opiera się na parametrach. Dostępy użytkowników są definiowane na poziomie ról, a nazewnictwo, sposób zachowania formularzy oraz widoczność przycisków są oparte na parametrach definiowanych przez administratora aplikacji.",
           },
+        ],
+        interests: [
+          { name: "Książki postapokaliptyczne, horrory, fantasy" },
+          { name: "Astronomia i fizyka" },
+          { name: "Nowinki technologiczne" },
+          { name: "Puzzle i łamigłówki" },
+          { name: "Majsterkowanie" },
+          { name: "Gry planszowe i karciane" },
         ],
         contactEmail: "mariusz.gawron1@gmail.com",
         contactPhone: "+48 782-328-747",

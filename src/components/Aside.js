@@ -3,7 +3,6 @@ import React, { useContext } from "react";
 import { UserContext } from "../context/UserContext";
 import Skills from "./Skills";
 import Contact from "./Contact";
-import profilePic from "../img/photo-head.jpg";
 import Loading from "./Loading";
 
 const Aside = () => {
@@ -15,10 +14,12 @@ const Aside = () => {
 
   return (
     <section className="aside">
-      <img src={profilePic} className="photo-of-me" alt="Me" />
+      <img src="/img/photo-head2.jpg" className="photo-of-me" alt="Me" />
 
       <Contact />
       <Skills />
+
+      <img src="/img/qrcode.png" className="qrqode" alt="QR qode" />
     </section>
   );
 };

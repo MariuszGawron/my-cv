@@ -32,7 +32,7 @@ const Education = () => {
                 {expandedIndex === index ? "-" : "+"}
               </button>
               <h3 className="course-title" onClick={() => toggleExpand(index)}>
-                {edu.course} <span className="years"> | {edu.years}</span>
+                {edu.course}
               </h3>
               {edu.certificate && (
                 <a className="certificate-preview-link" href={edu.certificate} target="_blank" rel="noopener noreferrer">
@@ -43,6 +43,7 @@ const Education = () => {
                   />
                 </a>
               )}
+              <span className="years"> | {edu.years}</span>
             </div>
             <div className={`education-details ${expandedIndex === index ? "expanded" : "collapsed"}`}>
               <h4>{edu.school}</h4>

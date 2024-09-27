@@ -12,8 +12,7 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      {/* <p>{language === "en" ? "Contact Me" : "Skontaktuj się ze mną"}:</p>
-      <a href={`mailto:${user.contactEmail}`}>{user.contactEmail}</a> */}
+      <h3>2024 - Mariusz Gawron</h3>
     </footer>
   );
 };

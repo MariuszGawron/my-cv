@@ -32,8 +32,13 @@ const Projects = () => {
                 {expandedIndex === index ? "-" : "+"}
               </button>
               <h3 className="course-title" onClick={() => toggleExpand(index)}>
-                {pro.name} <span className="years"> | {pro.technology}</span>{" "}
-                <a className="project-github-link" href={pro.github} target="_blank" rel="noopener noreferrer">
+                {pro.name}
+                <a
+                  className="project-github-link"
+                  href={pro.github ? pro.github : undefined}
+                  target={pro.github ? "_blank" : undefined}
+                  rel={pro.github ? "noopener noreferrer" : undefined}
+                >
                   <img
                     src="/img/github-ico.png" // Miniatura obrazu
                     alt="Github logo"
@@ -50,6 +55,7 @@ const Projects = () => {
                   />
                 </a>
               )}
+              <span className="years"> | {pro.technology}</span>
             </div>
             <div className={`education-details ${expandedIndex === index ? "expanded" : "collapsed"}`}>
               <h4>{pro.school}</h4>
