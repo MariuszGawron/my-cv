@@ -1,6 +1,7 @@
 // src/components/Footer.js
 import React, { useContext } from "react";
 import { UserContext } from "../context/UserContext";
+import Loading from "./Loading";
 
 const Footer = () => {
   const { user } = useContext(UserContext);
