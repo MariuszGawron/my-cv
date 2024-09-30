@@ -8,7 +8,7 @@ const Contact = () => {
   const { user } = useContext(UserContext);
   const { language } = useContext(LanguageContext);
 
-  if (!user || !user.contactEmail) {
+  if (!user || !user.contactEmail || !user.contactPhone || !user.contactAddress) {
     return <Loading />;
   }
 
@@ -21,6 +21,16 @@ const Contact = () => {
       <br></br>
       <a className="contact-links" href={`mailto:${user.contactEmail}`}>
         📧 {user.contactEmail}
+      </a>
+      <br></br>
+      <a className="contact-links">🏠 {user.contactAddress}</a>
+      <br></br>
+      <a className="contact-links linkedin" href={`${user.contactLinkedIn}`} target="_blank">
+        ⬅️ Click!
+      </a>
+      <br></br>
+      <a className="contact-links github" href={`${user.contactGitHub}`} target="_blank">
+        ⬅️ Click!
       </a>
     </section>
   );

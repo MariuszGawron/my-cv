@@ -12,6 +12,10 @@ const Footer = () => {
 
   return (
     <footer className="footer">
+      <span>
+        Wyrażam zgodę na przetwarzanie moich danych osobowych w celach rekrutacji, zgodnie z Ustawą z dn. 29 sierpnia 1997 r. o ochronie danych osobowych (Dz.
+        U. z 2002 r. Nr 101, poz. 926 z późniejszymi zmianami).
+      </span>
       <h3>2024 - Mariusz Gawron</h3>
     </footer>
   );

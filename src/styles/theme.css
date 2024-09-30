@@ -111,6 +111,12 @@ body.light .container {
   position: relative;
 }
 
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .switchers {
   display: flex;
   position: fixed;
@@ -137,6 +143,7 @@ h2 {
 
 h1 {
   font-size: 2.5em;
+  line-height: 30px;
 }
 
 h3,
@@ -188,6 +195,12 @@ a {
   font-size: small;
   font-weight: 100;
   margin-left: 10px;
+}
+
+.job-title {
+  color: grey;
+  font-size: 26px;
+  font-weight: 100;
 }
 
 .education-item {
@@ -286,7 +299,8 @@ body.dark .certificate-preview-link .certificate-preview {
   position: absolute;
   right: 25%;
   transform: translate(0, -5px);
-  display: inline-block;
+  /* display: inline-block; */
+  display: none;
   margin-left: 5px;
 }
 
@@ -302,4 +316,19 @@ body.dark .certificate-preview-link .certificate-preview {
 .github-logo {
   width: 19px;
   margin-left: 20px;
+}
+
+.linkedin {
+  background-image: url(../../public/img/linkedin.png);
+  background-size: 19px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  padding-left: 26px;
+}
+.github {
+  background-image: url(../../public/img/github-ico.png);
+  background-size: 19px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  padding-left: 26px;
 }

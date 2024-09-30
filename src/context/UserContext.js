@@ -13,8 +13,9 @@ export const UserProvider = ({ children }) => {
     const data = {
       en: {
         name: "Mariusz Gawron",
+        jobTitle: "JavaScript Developer",
         about:
-          "I'm a 35-year-old relatively new web developer who isn't afraid of challenges. However, for several years, I've been involved in the planning, testing, and development of applications that streamline logistics operations in a large production and logistics company. My experience includes both IT project development and team coordination, but what drives me the most recently is solving real-world problems with code. \n\nAs an Application Development Specialist, I develop tools that improve internal company processes, from ordering systems to applications for optimizing transportation, as well as creating an application for submitting transportation requests for the company's logistics department. I handle the full application lifecycle: from planning and development, through testing, deployment, and providing technical support. \n\nIn addition to coding, I continuously grow by participating in courses related to JavaScript, Oracle APEX, and Power BI. I treat every project as a new challenge and an opportunity to learn, because I believe that constant development is the key to innovative solutions.",
+          "I'm a 35-year-old web developer who isn't afraid of challenges. For several years, I've been involved in the planning, testing, and development of applications that streamline logistics operations in a large production and logistics company. My experience includes both IT project development and team coordination, but what drives me the most recently is solving real-world problems with code. \n\nAs an Application Development Specialist, I develop tools that improve internal company processes, from ordering systems to applications for optimizing transportation, as well as creating an application for submitting transportation requests for the company's logistics department. I handle the full application lifecycle: from planning and development, through testing, deployment, and providing technical support. \n\nIn addition to coding, I continuously grow by participating in courses related to JavaScript, Oracle APEX, and Power BI. I treat every project as a new challenge and an opportunity to learn, because I believe that constant development is the key to innovative solutions.",
         experience: [
           {
             title: "Application Development Specialist - Logistics Department",
@@ -49,72 +50,72 @@ export const UserProvider = ({ children }) => {
             years: "02.2017 - 05.2018",
             description: "- Planning the loading of current customer orders.",
           },
-          {
-            title: "Transport Service Representative - Transport Service Department",
-            company: "CORRECT - K. Błaszczyk i Wspólnicy Sp. K.",
-            years: "02.2016-02.2017",
-            description: "- Preparing transport documentation for truck drivers, customs agencies, and accounting after loading.",
-          },
-          {
-            title: "Maintenance Technician",
-            company: "CORRECT - K. Błaszczyk i Wspólnicy Sp. K.",
-            years: "02.2015-01.2016",
-            description: "- Repairing, overhauling, and maintaining machines used for spring and foam mattress production.",
-          },
-          {
-            title: "Refrigeration Plant Operator",
-            company: "P.P.H.U. Alces – Chłodnia składowa",
-            years: "06.2014-01.2015",
-            description: "- Operating, monitoring, and maintaining the refrigeration plant.",
-          },
-          {
-            title: "Own Business",
-            company: "Online Store",
-            years: "12.2013-07.2014 ",
-            description: "- Running an online store built on PrestaShop.",
-          },
-          {
-            title: "Refrigeration Installation Technician",
-            company: "Tech Mors. Zakład techniki chłodniczej. Żuk D.",
-            years: "01.2013-10.2013",
-            description: "- Creating, repairing, and maintaining refrigeration installations.",
-          },
-          {
-            title: "Refrigeration Equipment Mechanic",
-            company: "Grupa Producentów Owoców i Warzyw „Family Farm” Sp. z o.o.",
-            years: "12.2011-12.2012",
-            description: "- Operating, monitoring, and maintaining the refrigeration plant.",
-          },
-          {
-            title: "Refrigeration Plant Operator",
-            company: "Calfrost Sp. z o.o.",
-            years: "08.2010-11.2011",
-            description: "- Operating, monitoring, and maintaining the refrigeration plant.",
-          },
-          {
-            title: "Refrigeration Plant Operator Assistant",
-            company: "P.P.H.U. Alces – Chłodnia składowa",
-            years: "11.2009-07.2010",
-            description: "- Assisting in operating the refrigeration plant.",
-          },
-          {
-            title: "Sales Representative – Customer Advisor",
-            company: "Telewizja Nowej Generacji „n”",
-            years: "09.2008-06.2009",
-            description: "- Advising and selling television services.",
-          },
-          {
-            title: "Warehouse Worker - Seasonal Work",
-            company: "Przedsiębiorstwo Produkcji Lodów „Koral”",
-            years: "06.2008-09.2008",
-            description: "- Preparing goods for orders.",
-          },
+          // {
+          //   title: "Transport Service Representative - Transport Service Department",
+          //   company: "CORRECT - K. Błaszczyk i Wspólnicy Sp. K.",
+          //   years: "02.2016-02.2017",
+          //   description: "- Preparing transport documentation for truck drivers, customs agencies, and accounting after loading.",
+          // },
+          // {
+          //   title: "Maintenance Technician",
+          //   company: "CORRECT - K. Błaszczyk i Wspólnicy Sp. K.",
+          //   years: "02.2015-01.2016",
+          //   description: "- Repairing, overhauling, and maintaining machines used for spring and foam mattress production.",
+          // },
+          // {
+          //   title: "Refrigeration Plant Operator",
+          //   company: "P.P.H.U. Alces – Chłodnia składowa",
+          //   years: "06.2014-01.2015",
+          //   description: "- Operating, monitoring, and maintaining the refrigeration plant.",
+          // },
+          // {
+          //   title: "Own Business",
+          //   company: "Online Store",
+          //   years: "12.2013-07.2014 ",
+          //   description: "- Running an online store built on PrestaShop.",
+          // },
+          // {
+          //   title: "Refrigeration Installation Technician",
+          //   company: "Tech Mors. Zakład techniki chłodniczej. Żuk D.",
+          //   years: "01.2013-10.2013",
+          //   description: "- Creating, repairing, and maintaining refrigeration installations.",
+          // },
+          // {
+          //   title: "Refrigeration Equipment Mechanic",
+          //   company: "Grupa Producentów Owoców i Warzyw „Family Farm” Sp. z o.o.",
+          //   years: "12.2011-12.2012",
+          //   description: "- Operating, monitoring, and maintaining the refrigeration plant.",
+          // },
+          // {
+          //   title: "Refrigeration Plant Operator",
+          //   company: "Calfrost Sp. z o.o.",
+          //   years: "08.2010-11.2011",
+          //   description: "- Operating, monitoring, and maintaining the refrigeration plant.",
+          // },
+          // {
+          //   title: "Refrigeration Plant Operator Assistant",
+          //   company: "P.P.H.U. Alces – Chłodnia składowa",
+          //   years: "11.2009-07.2010",
+          //   description: "- Assisting in operating the refrigeration plant.",
+          // },
+          // {
+          //   title: "Sales Representative – Customer Advisor",
+          //   company: "Telewizja Nowej Generacji „n”",
+          //   years: "09.2008-06.2009",
+          //   description: "- Advising and selling television services.",
+          // },
+          // {
+          //   title: "Warehouse Worker - Seasonal Work",
+          //   company: "Przedsiębiorstwo Produkcji Lodów „Koral”",
+          //   years: "06.2008-09.2008",
+          //   description: "- Preparing goods for orders.",
+          // },
         ],
         education: [
           {
             course: "JavaScript Developer - Course",
             school: "Coders Lab",
-            years: "2023 - 2024",
+            years: "10.2023 - 08.2024",
             description:
               "Course content: advanced HTML and CSS, SASS and RWD, JavaScript, ECMAScript 6, React, project work, advanced state management, testing, Docker. The course included 500 hours of lectures, practical sessions with an instructor, and self-study.",
             certificate: "/img/JavaScript.pdf",
@@ -123,7 +124,7 @@ export const UserProvider = ({ children }) => {
           {
             course: "Oracle APEX - Course",
             school: "DBE Andrzej Nowakowski",
-            years: "2023",
+            years: "11.2023",
             description: "Oracle APEX training in the creation and administration of applications using Oracle Application Express technology.",
             certificate: "/img/Apex.pdf",
             certificateThumbnail: "/img/Apex.jpg",
@@ -131,7 +132,7 @@ export const UserProvider = ({ children }) => {
           {
             course: "Power BI + SQL - Course",
             school: "JSystems Sp. z o.o.",
-            years: "2021",
+            years: "09.2021",
             description:
               "Working with multi-table models, Power Query for Power BI Desktop, advanced visual elements, sharing Power BI Desktop reports, basics of SQL in Power BI, and stages of data processing in Power BI.",
             certificate: "/img/Power BI + SQL.pdf",
@@ -140,7 +141,7 @@ export const UserProvider = ({ children }) => {
           {
             course: "Web and Mobile Applications - Postgraduate Studies",
             school: "Wyższa Szkoła Bankowa w Poznaniu",
-            years: "2017 - 2018",
+            years: "10.2017 - 06.2018",
             description:
               "Creating responsive websites and web applications based on HTML5/CSS3, Ajax, PHP, Javascript, ASP.NET, creating native mobile applications in Java and .NET, using development environments for Android systems.",
             certificate: "",
@@ -149,7 +150,7 @@ export const UserProvider = ({ children }) => {
           {
             course: "Environmental Engineering - Engineering Studies",
             school: "Państwowa Wyższa Szkoła Zawodowa w Kaliszu",
-            years: "2011 - 2014",
+            years: "10.2011 - 05.2014",
             description: "",
             certificate: "",
             certificateThumbnail: "",
@@ -223,20 +224,33 @@ export const UserProvider = ({ children }) => {
           },
         ],
         interests: [
-          { name: "Post-apocalyptic, horros, fantasy books" },
-          { name: "Astronomy and physics" },
-          { name: "Technological innovations" },
-          { name: "Puzzles and brain teasers" },
-          { name: "DIY projects" },
-          { name: "Board games and card games" },
+          {
+            name: "Post-apocalyptic, horros, fantasy books",
+            description:
+              "A. Rogoziński, R. Szmidt - Szczury Wrocławia series, Uniwersum Metro, D. Glukhovsky - Metro 2033 series, S. King, G. R.R. Martin, A. Sapkowski, J.K. Rowling - Harry Potter series, A. Wardziak, J.R.R. Tolkien - LOTR series, and many others.",
+          },
+          {
+            name: "Astronomy and physics",
+            description: "Observations of planets, black holes, Einstein's theory of space-time, the laws of physics in everyday life.",
+          },
+          { name: "Puzzles and brain teasers", description: "Traditional, 3D, metal puzzles. Sudoku, Nonogram, Hanayama. " },
+          { name: "DIY projects", description: "Planning, designing and creating furniture." },
+          {
+            name: "Board games and card games",
+            description: "7 cudów świata, Palec Boży, Wirus, Sabotażysta, Carcassonne, Dixit, Muzy, Gierki małżeńskie, Korporacja. ",
+          },
         ],
         contactEmail: "mariusz.gawron1@gmail.com",
         contactPhone: "+48 782-328-747",
+        contactAddress: "62-800 Kalisz, ul. Widok 26/10",
+        contactLinkedIn: "https://www.linkedin.com/in/mariusz-gawron-a92153156/",
+        contactGitHub: "https://github.com/MariuszGawron",
       },
       pl: {
         name: "Mariusz Gawron",
+        jobTitle: "JavaScript Developer",
         about:
-          "Jestem stosunkowo świeżym, choć nie najmłodszym, bo 35 letnim programistą webowym, który nie boi się wyzwań. Jednak od kilku lat uczestniczę w planowaniu, testowaniu i rozwoju aplikacji, które usprawniają funkcjonowanie logistyki w dużej firmie produkcyjno-logistycznej. Moje doświadczenie obejmuje zarówno rozwój projektów IT, jak i koordynację pracy zespołów ludzi, ale to, co w ostatnim czasie napędza mnie najbardziej, to rozwiązywanie realnych problemów za pomocą kodu. \n\nPracując jako Specjalista ds. rozwoju aplikacji, rozwijam narzędzia usprawniające wewnętrzne procesy firmowe, od systemów zamówień, po aplikacje do optymalizacji transportu, a także tworzę aplikację do składania zapotrzebowań transportowych dla firmowej spedycji. Zajmuję się pełnym cyklem życia aplikacji: od planowania i tworzenia, przez testowanie, wdrażanie, aż po wsparcie techniczne. \n\nPoza tworzeniem kodu, wciąż się rozwijam, uczestnicząc w kursach związanych z JavaScriptem, Oracle APEX czy Power BI. Każdy projekt traktuję jako nowe wyzwanie i okazję do nauki, ponieważ wierzę, że stały rozwój to klucz do innowacyjnych rozwiązań.",
+          "Jestem 35 letnim programistą webowym, który nie boi się wyzwań. Od kilku lat uczestniczę w planowaniu, testowaniu i rozwoju aplikacji, które usprawniają funkcjonowanie logistyki w dużej firmie produkcyjno-logistycznej. Moje doświadczenie obejmuje zarówno rozwój projektów IT, jak i koordynację pracy zespołów ludzi, ale to, co w ostatnim czasie napędza mnie najbardziej, to rozwiązywanie realnych problemów za pomocą kodu. \n\nPracując jako Specjalista ds. rozwoju aplikacji, rozwijam narzędzia usprawniające wewnętrzne procesy firmowe, od systemów zamówień, po aplikacje do optymalizacji transportu, a także tworzę aplikację do składania zapotrzebowań transportowych dla firmowej spedycji. Zajmuję się pełnym cyklem życia aplikacji: od planowania i tworzenia, przez testowanie, wdrażanie, aż po wsparcie techniczne. \n\nPoza tworzeniem kodu, wciąż się rozwijam, uczestnicząc w kursach związanych z JavaScriptem, Oracle APEX czy Power BI. Każdy projekt traktuję jako nowe wyzwanie i okazję do nauki, ponieważ wierzę, że stały rozwój to klucz do innowacyjnych rozwiązań.",
         experience: [
           {
             title: "Specj. ds. rozwoju aplikacji - Dział Logistyki",
@@ -271,72 +285,72 @@ export const UserProvider = ({ children }) => {
             years: "02.2017 - 05.2018",
             description: "- Planowanie załadunków bieżących zamówień klientów.",
           },
-          {
-            title: "Ref. ds. obsługi transportu - Dział Obsługi Transportu",
-            company: "CORRECT - K. Błaszczyk i Wspólnicy Sp. K.",
-            years: "02.2016-02.2017",
-            description: "- Przygotowywanie dokumentacji transportowej po załadunku samochodów ciężarowych dla kierowców, agencji celnej, księgowości.",
-          },
-          {
-            title: "Technik utrzymanie ruchu",
-            company: "CORRECT - K. Błaszczyk i Wspólnicy Sp. K.",
-            years: "02.2015-01.2016",
-            description: "- Naprawy, remonty i utrzymanie w ruchu maszyn do produkcji sprężyn, materaców sprężynowych i materaców piankowych.",
-          },
-          {
-            title: " Maszynista chłodniczy",
-            company: "P.P.H.U. Alces – Chłodnia składowa",
-            years: "06.2014-01.2015",
-            description: "- Obsługa, dozór i utrzymanie w ruchu maszynowni chłodniczej.",
-          },
-          {
-            title: "Własna Działalność",
-            company: "Sklep internetowy",
-            years: "12.2013-07.2014 ",
-            description: "- Prowadzenie sklepu internetowego, stworzonego na PrestaShop.",
-          },
-          {
-            title: " Monter instalacji chłodniczych",
-            company: "Tech Mors. Zakład techniki chłodniczej. Żuk D.",
-            years: "01.2013-10.2013",
-            description: "- Tworzenie, remonty i utrzymanie w ruchu instalacji chłodniczych.",
-          },
-          {
-            title: "Mechanik urządzeń chłodniczych",
-            company: "Grupa Producentów Owoców i Warzyw „Family Farm” Sp. z o.o.",
-            years: "12.2011-12.2012",
-            description: "- Obsługa, dozór i utrzymanie w ruchu maszynowni chłodniczej.",
-          },
-          {
-            title: "Maszynista Chłodniczy",
-            company: "Calfrost Sp. z o.o.",
-            years: "08.2010-11.2011",
-            description: "- Obsługa, dozór i utrzymanie w ruchu maszynowni chłodniczej.",
-          },
-          {
-            title: "Pomocnik maszynisty chłodniczego",
-            company: "P.P.H.U. Alces – Chłodnia składowa",
-            years: "11.2009-07.2010",
-            description: "- Obsługa maszynowni chłodniczej.",
-          },
-          {
-            title: "Przedstawiciel handlowy – Doradca Klienta",
-            company: "Telewizja Nowej Generacji „n”",
-            years: "09.2008-06.2009",
-            description: "- Doradctwo i sprzedaż usług telewizyjnych.",
-          },
-          {
-            title: "Magazynier - praca sezonowa",
-            company: "Przedsiębiorstwo Produkcji Lodów „Koral”",
-            years: "06.2008-09.2008",
-            description: "- Przygotowywanie towaru pod zamówienie.",
-          },
+          // {
+          //   title: "Ref. ds. obsługi transportu - Dział Obsługi Transportu",
+          //   company: "CORRECT - K. Błaszczyk i Wspólnicy Sp. K.",
+          //   years: "02.2016-02.2017",
+          //   description: "- Przygotowywanie dokumentacji transportowej po załadunku samochodów ciężarowych dla kierowców, agencji celnej, księgowości.",
+          // },
+          // {
+          //   title: "Technik utrzymanie ruchu",
+          //   company: "CORRECT - K. Błaszczyk i Wspólnicy Sp. K.",
+          //   years: "02.2015-01.2016",
+          //   description: "- Naprawy, remonty i utrzymanie w ruchu maszyn do produkcji sprężyn, materaców sprężynowych i materaców piankowych.",
+          // },
+          // {
+          //   title: " Maszynista chłodniczy",
+          //   company: "P.P.H.U. Alces – Chłodnia składowa",
+          //   years: "06.2014-01.2015",
+          //   description: "- Obsługa, dozór i utrzymanie w ruchu maszynowni chłodniczej.",
+          // },
+          // {
+          //   title: "Własna Działalność",
+          //   company: "Sklep internetowy",
+          //   years: "12.2013-07.2014 ",
+          //   description: "- Prowadzenie sklepu internetowego, stworzonego na PrestaShop.",
+          // },
+          // {
+          //   title: " Monter instalacji chłodniczych",
+          //   company: "Tech Mors. Zakład techniki chłodniczej. Żuk D.",
+          //   years: "01.2013-10.2013",
+          //   description: "- Tworzenie, remonty i utrzymanie w ruchu instalacji chłodniczych.",
+          // },
+          // {
+          //   title: "Mechanik urządzeń chłodniczych",
+          //   company: "Grupa Producentów Owoców i Warzyw „Family Farm” Sp. z o.o.",
+          //   years: "12.2011-12.2012",
+          //   description: "- Obsługa, dozór i utrzymanie w ruchu maszynowni chłodniczej.",
+          // },
+          // {
+          //   title: "Maszynista Chłodniczy",
+          //   company: "Calfrost Sp. z o.o.",
+          //   years: "08.2010-11.2011",
+          //   description: "- Obsługa, dozór i utrzymanie w ruchu maszynowni chłodniczej.",
+          // },
+          // {
+          //   title: "Pomocnik maszynisty chłodniczego",
+          //   company: "P.P.H.U. Alces – Chłodnia składowa",
+          //   years: "11.2009-07.2010",
+          //   description: "- Obsługa maszynowni chłodniczej.",
+          // },
+          // {
+          //   title: "Przedstawiciel handlowy – Doradca Klienta",
+          //   company: "Telewizja Nowej Generacji „n”",
+          //   years: "09.2008-06.2009",
+          //   description: "- Doradctwo i sprzedaż usług telewizyjnych.",
+          // },
+          // {
+          //   title: "Magazynier - praca sezonowa",
+          //   company: "Przedsiębiorstwo Produkcji Lodów „Koral”",
+          //   years: "06.2008-09.2008",
+          //   description: "- Przygotowywanie towaru pod zamówienie.",
+          // },
         ],
         education: [
           {
             course: "JavaScript Developer - kurs",
             school: "Coders Lab",
-            years: "2023 - 2024",
+            years: "10.2023 - 08.2024",
             description:
               "Zakres tematyczny: zaawansowany HTML i CSS, SASS i RWD, JavaScript, ECMAScript 6, React, projekt zaliczeniowy, zaawansowane zarządzanie stanem aplikacji, testowanie, Docker. Kurs obejmował 500 godzin wykładów, zajęć praktycznych z wykładowcą oraz nauki własnej.",
             certificate: "/img/JavaScript.pdf",
@@ -345,7 +359,7 @@ export const UserProvider = ({ children }) => {
           {
             course: "Oracle APEX - kurs",
             school: "DBE Andrzej Nowakowski",
-            years: "2023",
+            years: "11.2023",
             description: "Szkolenie Oracle APEX z zakresu tworzenia i administracji aplikacji w technologii Oracle Application Express.",
             certificate: "/img/Apex.pdf",
             certificateThumbnail: "/img/Apex.jpg",
@@ -353,7 +367,7 @@ export const UserProvider = ({ children }) => {
           {
             course: "Power BI + SQL - kurs",
             school: "JSystems Sp. z o.o.",
-            years: "2021",
+            years: "09.2021",
             description:
               "Praca z modelami opartymi na wielu tabelach, model danych Power Query dla Power BI Desktop, zaawansowane elementy wizualne, udostępnianie raportów Power BI Desktop, podstawy języka SQL w Power BI oraz etapy przetwarzania danych w Power BI",
             certificate: "/img/Power BI + SQL.pdf",
@@ -362,7 +376,7 @@ export const UserProvider = ({ children }) => {
           {
             course: "Aplikacje internetowe i mobilne - studia podyplomowe",
             school: "Wyższa Szkoła Bankowa w Poznaniu",
-            years: "2017 - 2018",
+            years: "10.2017 - 06.2018",
             description:
               "Tworzenie responsywnych stron i aplikacji internetowych w oparciu o HTML5/CSS3, Ajax, PHP, Javascript, ASP.NET, tworzenia natywnych aplikacji mobilnych w języku Java i .NET, zastosowanie środowisk programistycznych dla systemów Android.",
             certificate: "",
@@ -371,7 +385,7 @@ export const UserProvider = ({ children }) => {
           {
             course: "Inżynieria Środowiska - studia inżynierskie",
             school: "Państwowa Wyższa Szkoła Zawodowa w Kaliszu",
-            years: "2011 - 2014",
+            years: "10.2011 - 05.2014",
             description: "",
             certificate: "",
             certificateThumbnail: "",
@@ -445,15 +459,30 @@ export const UserProvider = ({ children }) => {
           },
         ],
         interests: [
-          { name: "Książki postapokaliptyczne, horrory, fantasy" },
-          { name: "Astronomia i fizyka" },
-          { name: "Nowinki technologiczne" },
-          { name: "Puzzle i łamigłówki" },
-          { name: "Majsterkowanie" },
-          { name: "Gry planszowe i karciane" },
+          {
+            name: "Książki postapokaliptyczne, horrory, fantasy",
+            description:
+              "A. Rogoziński, R. Szmidt - Seria Szczury Wrocławia, Uniwersum Metro, D. Glukhovsky -  Seria Metro 2033, S. King, G. R.R. Martin, A. Sapkowski, J.K. Rowling - Seria Harry Potter, A. Wardziak, J.R.R. Tolkien - Seria LOTR, i wiele innych.",
+          },
+          {
+            name: "Astronomia i fizyka",
+            description: "Obserwacje planet, czarne dziury, teoria Einsteina w odniesieniu do czasoprzestrzeni, prawa fizyki w życiu codziennym.",
+          },
+          {
+            name: "Puzzle i łamigłówki",
+            description: "Puzzle tradycyjne, 3d, metalowe. Sudoku, Nonogram, Hanayama. ",
+          },
+          { name: "Majsterkowanie", description: "Planowanie, projektowanie i tworzenie mebli." },
+          {
+            name: "Gry planszowe i karciane",
+            description: "7 cudów świata, Palec Boży, Wirus, Sabotażysta, Carcassonne, Dixit, Muzy, Gierki małżeńskie, Korporacja. ",
+          },
         ],
         contactEmail: "mariusz.gawron1@gmail.com",
         contactPhone: "+48 782-328-747",
+        contactAddress: "62-800 Kalisz, ul. Widok 26/10",
+        contactLinkedIn: "https://www.linkedin.com/in/mariusz-gawron-a92153156/",
+        contactGitHub: "https://github.com/MariuszGawron",
       },
     };
 

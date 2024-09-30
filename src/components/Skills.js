@@ -24,7 +24,7 @@ const Skills = () => {
 
   return (
     <section className="skills">
-      <h2>{language === "en" ? "Hard skills" : "Umiejętności twarde"}</h2>
+      <h2>{language === "en" ? "Technologies" : "Technologie"}</h2>
       <ul className="lists">
         {user.hardSkills.map((skill, index) => (
           <li key={index}>

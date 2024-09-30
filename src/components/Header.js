@@ -14,7 +14,10 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1>{user.name}</h1>
+      <div className="header-title">
+        <h1>{user.name}</h1>
+        <h3 className="job-title"> | {user.jobTitle}</h3>
+      </div>
       <img src="/img/qrcode-small.png" className="qrqode-small" alt="QR qode" />
       <div className="switchers">
         <ThemeSwitcher />
