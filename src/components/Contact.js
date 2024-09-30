@@ -25,11 +25,11 @@ const Contact = () => {
       <br></br>
       <a className="contact-links">🏠 {user.contactAddress}</a>
       <br></br>
-      <a className="contact-links linkedin" href={`${user.contactLinkedIn}`} target="_blank">
+      <a className="contact-links linkedin" href={`${user.contactLinkedIn}`} target="_blank" rel="noopener noreferrer">
         ⬅️ Click!
       </a>
       <br></br>
-      <a className="contact-links github" href={`${user.contactGitHub}`} target="_blank">
+      <a className="contact-links github" href={`${user.contactGitHub}`} target="_blank" rel="noopener noreferrer">
         ⬅️ Click!
       </a>
     </section>
