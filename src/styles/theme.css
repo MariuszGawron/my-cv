@@ -282,7 +282,7 @@ body.dark .certificate-preview-link .certificate-preview {
 .button-nonclick {
   background: none;
   border: none;
-  font-size: 20px;
+  /* font-size: 20px; */
   margin-right: 10px;
   cursor: default;
 }

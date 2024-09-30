@@ -23,7 +23,9 @@ const Contact = () => {
         📧 {user.contactEmail}
       </a>
       <br></br>
-      <a className="contact-links">🏠 {user.contactAddress}</a>
+      <a className="contact-links" href="https://maps.app.goo.gl/iJrEvzSiUkuTgQd96" target="_blank" rel="noopener noreferrer">
+        🏠 {user.contactAddress}
+      </a>
       <br></br>
       <a className="contact-links linkedin" href={`${user.contactLinkedIn}`} target="_blank" rel="noopener noreferrer">
         ⬅️ Click!
