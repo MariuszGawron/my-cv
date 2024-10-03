@@ -13,8 +13,8 @@ function App() {
       <LanguageProvider>
         <UserProvider>
           <div className="container">
-            <Aside />
             <Main />
+            <Aside />
           </div>
         </UserProvider>
       </LanguageProvider>

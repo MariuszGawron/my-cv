@@ -73,10 +73,12 @@ body.light .container {
   justify-content: center;
   max-width: 1200px;
   margin: 10px auto 0 auto;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 
 .aside {
-  max-width: 370px;
+  width: 370px;
   background-color: #1e2939;
 }
 
@@ -122,7 +124,7 @@ body.light .container {
   position: fixed;
   right: 0px;
   top: 0px;
-  z-index: 2;
+  z-index: 3;
   padding: 10px;
 }
 
@@ -168,7 +170,7 @@ a {
 .photo-of-me,
 .qrqode {
   width: 370px;
-  max-height: 300px;
+  max-height: 15%;
   object-fit: cover;
   object-position: top;
   padding: 20px 0;
@@ -176,7 +178,7 @@ a {
   transition: max-height 1s ease;
 }
 .photo-of-me:hover {
-  max-height: 690px;
+  max-height: 100%;
   transition: max-height 1s ease;
 }
 .qrqode-small {
@@ -215,7 +217,7 @@ a {
   max-height: 0;
   position: absolute;
   top: -30%;
-  left: 100%;
+  left: 60%;
   width: 0px;
   z-index: 2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -331,4 +333,46 @@ body.dark .certificate-preview-link .certificate-preview {
   display: inline-block;
   background-repeat: no-repeat;
   padding-left: 26px;
+}
+
+@media only screen and (max-width: 1136px) {
+  .aside {
+    width: 650px;
+  }
+  .photo-of-me {
+    width: 650px;
+    max-height: 20%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    width: 500px;
+    padding: 5px;
+    margin-left: 0px;
+  }
+  .aside {
+    width: 500px;
+    height: auto;
+  }
+  .photo-of-me {
+    width: 500px;
+    max-height: 20%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .main {
+    width: 300px;
+    padding: 5px;
+    margin-left: 0px;
+  }
+  .aside {
+    width: 300px;
+    height: auto;
+  }
+  .photo-of-me {
+    width: 300px;
+    max-height: 20%;
+  }
 }

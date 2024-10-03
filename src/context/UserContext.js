@@ -208,7 +208,7 @@ export const UserProvider = ({ children }) => {
           {
             name: "CV",
             technology: "React",
-            link: "https://mg-my-cv.netlify.app/",
+            link: "/img/CV-Mariusz-Gawron.pdf",
             thumbnail: "/img/CV.jpg",
             github: "https://github.com/MariuszGawron/my-cv",
             description: "This is the very page you are on right now ;-)",
@@ -443,7 +443,7 @@ export const UserProvider = ({ children }) => {
           {
             name: "CV",
             technology: "React",
-            link: "https://mg-my-cv.netlify.app/",
+            link: "/img/CV-Mariusz-Gawron.pdf",
             thumbnail: "/img/CV.jpg",
             github: "https://github.com/MariuszGawron/my-cv",
             description: "To jest właśnie ta strona na której jesteś ;-)",
