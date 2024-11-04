@@ -113,6 +113,15 @@ export const UserProvider = ({ children }) => {
         ],
         education: [
           {
+            course: "Oracle SQL Basics - Course",
+            school: "JSystems Sp. z o.o.",
+            years: "10.2024",
+            description:
+              "Using basic development tools, querying databases to retrieve data, creating complex reports based on data, creating and managing objects necessary to store data, modifying, adding, and deleting data in a way that is safe for data integrity.",
+            certificate: "/img/SQL.pdf",
+            certificateThumbnail: "/img/SQL.jpg",
+          },
+          {
             course: "JavaScript Developer - Course",
             school: "Coders Lab",
             years: "10.2023 - 08.2024",
@@ -347,6 +356,15 @@ export const UserProvider = ({ children }) => {
           // },
         ],
         education: [
+          {
+            course: "Podstawy Oracle SQL - kurs",
+            school: "JSystems Sp. z o.o.",
+            years: "10.2024",
+            description:
+              "Korzystanie z podstawowych narzędzi developerskich, odpytywanie baz danych w celu pobierania danych, tworzenie skomplikowanych raportów na podstawie danych, tworzenie i zarządzanie obiektami niezbędnymi do przechowywania danych, modyfikowanie, dodawanie oraz kasowanie danych w sposób bezpieczny dla spójności danych.",
+            certificate: "/img/SQL.pdf",
+            certificateThumbnail: "/img/SQL.jpg",
+          },
           {
             course: "JavaScript Developer - kurs",
             school: "Coders Lab",
