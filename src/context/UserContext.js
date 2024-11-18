@@ -113,6 +113,14 @@ export const UserProvider = ({ children }) => {
         ],
         education: [
           {
+            course: "SQL for intermediate level",
+            school: "JSystems Sp. z o.o.",
+            years: "11.2024",
+            description: "Writing queries based on more than one table, modifying data based on other tables, restoring saved changes.",
+            certificate: "/img/SQL2.pdf",
+            certificateThumbnail: "/img/SQL2.jpg",
+          },
+          {
             course: "Oracle SQL Basics - Course",
             school: "JSystems Sp. z o.o.",
             years: "10.2024",
@@ -357,7 +365,15 @@ export const UserProvider = ({ children }) => {
         ],
         education: [
           {
-            course: "Podstawy Oracle SQL - kurs",
+            course: "SQL dla średnio zaawansowanych - kurs",
+            school: "JSystems Sp. z o.o.",
+            years: "11.2024",
+            description: "Pisanie zapytań w oparciu o więcej niż jedną tabelę, modyfikowanie danych w oparciu o inne tabele, przywracanie zapisywanych zmian.",
+            certificate: "/img/SQL2.pdf",
+            certificateThumbnail: "/img/SQL2.jpg",
+          },
+          {
+            course: "Podstawowy Oracle SQL - kurs",
             school: "JSystems Sp. z o.o.",
             years: "10.2024",
             description:
