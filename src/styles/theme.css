@@ -9,14 +9,16 @@
 
 body.light,
 body.light .theme-button,
-body.light .language-button {
+body.light .language-button,
+body.light .button {
   background-color: var(--light-background-color);
   color: var(--light-font-color);
 }
 
 body.dark,
 body.dark .theme-button,
-body.dark .language-button {
+body.dark .language-button,
+body.dark .button {
   background-color: var(--dark-background-color);
   color: var(--dark-font-color);
 }
@@ -51,12 +53,22 @@ body.dark .toggle-button {
 }
 
 .theme-button,
-.language-button {
-  height: 50px;
-  width: 50px;
+.language-button,
+.button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+.button {
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.theme-button,
+.language-button {
+  height: 50px;
+  width: 50px;
   font-size: 24px;
 }
 
