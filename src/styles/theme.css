@@ -181,17 +181,20 @@ a {
 
 .photo-of-me,
 .qrqode {
-  width: 370px;
+  display: block;
+  margin: auto;
+  width: 200px;
   max-height: 15%;
   object-fit: cover;
   object-position: top;
   padding: 20px 0;
   background-color: #1e2939;
-  transition: max-height 1s ease;
+  transition: width 1s ease, max-height 1s ease;
 }
 .photo-of-me:hover {
   max-height: 100%;
-  transition: max-height 1s ease;
+  width: 370px;
+  transition: width 1s ease, max-height 1s ease;
 }
 .qrqode-small {
   width: 145px;

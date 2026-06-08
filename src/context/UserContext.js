@@ -15,7 +15,7 @@ export const UserProvider = ({ children }) => {
         name: "Mariusz Gawron",
         jobTitle: "JavaScript Developer",
         about:
-          "I'm a 35-year-old web developer who isn't afraid of challenges. For several years, I've been involved in the planning, testing, and development of applications that streamline logistics operations in a large production and logistics company. My experience includes both IT project development and team coordination, but what drives me the most recently is solving real-world problems with code. \n\nAs an Application Development Specialist, I develop tools that improve internal company processes, from ordering systems to applications for optimizing transportation, as well as creating an application for submitting transportation requests for the company's logistics department. I handle the full application lifecycle: from planning and development, through testing, deployment, and providing technical support. \n\nIn addition to coding, I continuously grow by participating in courses related to JavaScript, Oracle APEX, and Power BI. I treat every project as a new challenge and an opportunity to learn, because I believe that constant development is the key to innovative solutions.",
+          "I'm a 37-year-old web developer with strong analytical skills, who isn't afraid of challenges. For several years, I've been involved in the planning, testing, and development of applications that streamline logistics operations in a large production and logistics company. My experience includes both IT project development and team coordination, but what drives me the most recently is solving real-world problems with code. \n\nAs an Application Development Specialist, I develop tools that improve internal company processes, from ordering systems to applications for optimizing transportation, as well as creating an application for submitting transportation requests for the company's logistics department. I handle the full application lifecycle: from planning and development, through testing, deployment, and providing technical support. \n\nIn addition to coding, I continuously grow by participating in courses related to JavaScript, Oracle APEX, and Power BI. I treat every project as a new challenge and an opportunity to learn, because I believe that constant development is the key to innovative solutions.",
         experience: [
           {
             title: "Application Development Specialist - Logistics Department",
@@ -186,18 +186,17 @@ export const UserProvider = ({ children }) => {
         ],
         softSkills: [
           { name: "Commitment" },
+          { name: "Analytical Thinking" },
           { name: "Critical Thinking" },
           { name: "Adaptability" },
           { name: "Communication Skills" },
-          { name: "Analytical Thinking" },
           { name: "English - B2" },
         ],
         softwareSkills: [
           { name: "Excel", level: 5 },
-          { name: "Word, PowerPoint", level: 4 },
+          { name: "Power Automate", level: 4 },
           { name: "Power BI", level: 3 },
-          { name: "Power Automate", level: 3 },
-          { name: "VSC", level: 4 },
+          { name: "Visual Studio Code", level: 4 },
           { name: "ASANA", level: 4 },
           { name: "TRELLO", level: 3 },
           { name: "GIT", level: 3 },
@@ -242,6 +241,10 @@ export const UserProvider = ({ children }) => {
         ],
         interests: [
           {
+            name: "3d printing",
+            description: "From idea, through design, to execution",
+          },
+          {
             name: "Post-apocalyptic, horros, fantasy books",
             description:
               "A. Rogoziński, R. Szmidt - Szczury Wrocławia series, Uniwersum Metro, D. Glukhovsky - Metro 2033 series, S. King, G. R.R. Martin, A. Sapkowski, J.K. Rowling - Harry Potter series, A. Wardziak, J.R.R. Tolkien - LOTR series, and many others.",
@@ -267,7 +270,7 @@ export const UserProvider = ({ children }) => {
         name: "Mariusz Gawron",
         jobTitle: "JavaScript Developer",
         about:
-          "Jestem 35 letnim programistą webowym, który nie boi się wyzwań. Od kilku lat uczestniczę w planowaniu, testowaniu i rozwoju aplikacji, które usprawniają funkcjonowanie logistyki w dużej firmie produkcyjno-logistycznej. Moje doświadczenie obejmuje zarówno rozwój projektów IT, jak i koordynację pracy zespołów ludzi, ale to, co w ostatnim czasie napędza mnie najbardziej, to rozwiązywanie realnych problemów za pomocą kodu. \n\nPracując jako Specjalista ds. rozwoju aplikacji, rozwijam narzędzia usprawniające wewnętrzne procesy firmowe, od systemów zamówień, po aplikacje do optymalizacji transportu, a także tworzę aplikację do składania zapotrzebowań transportowych dla firmowej spedycji. Zajmuję się pełnym cyklem życia aplikacji: od planowania i tworzenia, przez testowanie, wdrażanie, aż po wsparcie techniczne. \n\nPoza tworzeniem kodu, wciąż się rozwijam, uczestnicząc w kursach związanych z JavaScriptem, Oracle APEX czy Power BI. Każdy projekt traktuję jako nowe wyzwanie i okazję do nauki, ponieważ wierzę, że stały rozwój to klucz do innowacyjnych rozwiązań.",
+          "Jestem 37 letnim programistą webowym z mocnymi umiejętnościami analitycznymi, który nie boi się wyzwań. Od kilku lat uczestniczę w planowaniu, testowaniu i rozwoju aplikacji, które usprawniają funkcjonowanie logistyki w dużej firmie produkcyjno-logistycznej. Moje doświadczenie obejmuje zarówno rozwój projektów IT, jak i koordynację pracy zespołów ludzi, ale to, co w ostatnim czasie napędza mnie najbardziej, to rozwiązywanie realnych problemów za pomocą kodu. \n\nPracując jako Specjalista ds. rozwoju aplikacji, rozwijam narzędzia usprawniające wewnętrzne procesy firmowe, od systemów zamówień, po aplikacje do optymalizacji transportu, a także tworzę aplikację do składania zapotrzebowań transportowych dla firmowej spedycji. Zajmuję się pełnym cyklem życia aplikacji: od planowania i tworzenia, przez testowanie, wdrażanie, aż po wsparcie techniczne. \n\nPoza tworzeniem kodu, wciąż się rozwijam, uczestnicząc w kursach związanych z JavaScriptem, Oracle APEX czy Power BI. Każdy projekt traktuję jako nowe wyzwanie i okazję do nauki, ponieważ wierzę, że stały rozwój to klucz do innowacyjnych rozwiązań.",
         experience: [
           {
             title: "Specj. ds. rozwoju aplikacji - Dział Logistyki",
@@ -438,18 +441,17 @@ export const UserProvider = ({ children }) => {
         ],
         softSkills: [
           { name: "Zaangażowanie" },
+          { name: "Analityczne myślenie" },
           { name: "Myślenie krytyczne" },
           { name: "Adaptacyjność" },
           { name: "Komunikatywność" },
-          { name: "Analityczne myślenie" },
           { name: "Angielski - B2" },
         ],
         softwareSkills: [
           { name: "Excel", level: 5 },
-          { name: "Word, PowerPoint", level: 4 },
+          { name: "Power Automate", level: 4 },
           { name: "Power BI", level: 3 },
-          { name: "Power Automate", level: 3 },
-          { name: "VSC", level: 4 },
+          { name: "Visual Studio Code", level: 4 },
           { name: "ASANA", level: 4 },
           { name: "TRELLO", level: 3 },
           { name: "GIT", level: 3 },
@@ -493,6 +495,10 @@ export const UserProvider = ({ children }) => {
           },
         ],
         interests: [
+          {
+            name: "Druk 3D",
+            description: "Od pomysłu, przez zaprojektowanie, aż po wykonanie.",
+          },
           {
             name: "Książki postapokaliptyczne, horrory, fantasy",
             description:

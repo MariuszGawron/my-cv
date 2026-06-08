@@ -14,7 +14,7 @@ const Aside = () => {
 
   return (
     <section className="aside">
-      <img src="/img/photo-head2.jpg" className="photo-of-me" alt="Me" />
+      <img src="/img/photo-head1.jpg" className="photo-of-me" alt="Me" />
 
       <Contact />
       <Skills />
